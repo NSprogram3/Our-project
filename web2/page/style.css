@@ -2,6 +2,10 @@ body {
    padding: 20px;
 background-image: url('img7.png');
    background-color:#1e88e5;
+   /*
+   background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+*/
 }
 p{
 
@@ -14,6 +18,7 @@ font-family: 'Handlee', cursive;
 	
 
 }
+
 .link1 {
    display: block;
   width: 20%;
@@ -38,16 +43,8 @@ justify-content: center;
 padding-top: 20px;
 margin: auto auto auto 30px;
 }
-/*
-Img{
 
-   padding: 30%;
-   width:400px;
-   height: 400px;
-    margin-top: -11px;
-   
-   }
-   */
+
    .group button{
 
       border: 1px solid #4e6c80;
@@ -58,9 +55,48 @@ Img{
       font-size: large;
       text-align: center;
      margin: -4px;
+      }
      
-       }
+       
+      
  
+   
+      .link1 {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+      .link1 {
+         margin: 10px;
+         padding: 15px 45px;
+         text-align: center;
+         text-transform: uppercase;
+         transition: 0.5s;
+         background-size: 200% auto;
+         color: white;            
+         box-shadow: 0 0 20px #eee;
+         border-radius: 10px;
+         display: block;
+       }
+
+       .link1:hover {
+         background-position: right center; /* change the direction of the change here */
+         color: #fff;
+         text-decoration: none;
+       }
+      /*
+       .img1{
+         
+         background-size: cover;
+         margin: 10px 240px;
+         padding: 15px 45px;
+        
+       }
+      
+ .group2{
+   width: 100%;
+height: 100%;
+background-color:#1a237e;
+opacity: 10%;
+
+
+ }
  
  
   
