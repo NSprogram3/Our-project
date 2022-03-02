@@ -1,22 +1,17 @@
 body {
    padding: 20px;
-background-image: url('img7.png');
-   background-color:#1e88e5;
-   /*
-   background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-*/
+   background-color:#f3f0e9;
+   background-image: url('back4.png');
 }
-p{
+p {
 
    font-size: 40pt;
-color: azure;
+color: #5b462c;
 text-align: center;
 padding: 18px 0 18px 0;
 margin: 0 0 10px 0;
 font-family: 'Handlee', cursive;
-	
-
+letter-spacing: 4px;
 }
 
 .link1 {
@@ -25,7 +20,7 @@ font-family: 'Handlee', cursive;
   border: none;
   cursor: pointer;
   margin: -10px;
- background-color: #1a237e;
+ 
   color: aliceblue;
   text-decoration: none;
   float: center;
@@ -43,9 +38,7 @@ justify-content: center;
 padding-top: 20px;
 margin: auto auto auto 30px;
 }
-
-
-   .group button{
+ .group button{
 
       border: 1px solid #4e6c80;
       color: #fff;
@@ -56,47 +49,25 @@ margin: auto auto auto 30px;
       text-align: center;
      margin: -4px;
       }
-     
-       
-      
- 
-   
-      .link1 {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
-      .link1 {
-         margin: 10px;
-         padding: 15px 45px;
-         text-align: center;
-         text-transform: uppercase;
-         transition: 0.5s;
-         background-size: 200% auto;
-         color: white;            
-         box-shadow: 0 0 20px #eee;
-         border-radius: 10px;
-         display: block;
-       }
-
-       .link1:hover {
-         background-position: right center; /* change the direction of the change here */
-         color: #fff;
-         text-decoration: none;
-       }
-      /*
        .img1{
-         
-         background-size: cover;
+         width: 500px;
+         height: 50vh;
          margin: 10px 240px;
-         padding: 15px 45px;
-        
+         padding: 45px 100px;  
        }
-      
- .group2{
-   width: 100%;
-height: 100%;
-background-color:#1a237e;
-opacity: 10%;
-
-
- }
+       .link1 {background-image: linear-gradient(to right, #5b462c 0%, #ddc076 51%, #cecece  100%)}
+       .link1 {
+          margin: 10px;
+          padding: 15px 45px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;            
+          box-shadow: 0 0 20px #eee;
+          border-radius: 10px;
+          display: block;
+        }
  
  
   
