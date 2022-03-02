@@ -1,41 +1,66 @@
 body {
-background-color: #01579b;
-
+   padding: 20px;
+background-image: url('img7.png');
+   background-color:#1e88e5;
 }
 p{
 
-   font-size: 30pt;
+   font-size: 40pt;
 color: azure;
 text-align: center;
 padding: 18px 0 18px 0;
 margin: 0 0 10px 0;
-
-font-family: 'Hubballi', cursive;
-font-family: 'Oswald', sans-serif;
+font-family: 'Handlee', cursive;
+	
 
 }
 .link1 {
-   display: flex;
-   padding: 10px;
-   border-radius: 30px;
-  margin: 10px;
- background-color: #64b5f6;
+   display: block;
+  width: 20%;
+  border: none;
+  cursor: pointer;
+  margin: -10px;
+ background-color: #1a237e;
   color: aliceblue;
   text-decoration: none;
-
+  float: center;
+  text-align: center;
+  font-family: 'Hubballi', cursive;
+font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  
 }
 
-.but1{
+.group{
 display: flex;
 align-items: center;
 justify-content: center;
-
+padding-top: 20px;
+margin: auto auto auto 30px;
 }
-
+/*
 Img{
 
    padding: 30%;
-   width:500px;
-   height: 300px;
-    margin-top: -25%;
+   width:400px;
+   height: 400px;
+    margin-top: -11px;
+   
    }
+   */
+   .group button{
+
+      border: 1px solid #4e6c80;
+      color: #fff;
+      padding: 12px 20px ;
+      cursor: pointer;
+      
+      font-size: large;
+      text-align: center;
+     margin: -4px;
+     
+       }
+ 
+ 
+ 
+  
