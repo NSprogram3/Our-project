@@ -2,4 +2,71 @@ body{
     padding: 20px;
     background-color:#f3f0e9;
     background-image: url('back4.png');
+
+}
+.p1{
+
+    font-size: 25px;
+    color: #5b462c;
+    text-align: left;
+    padding: 7px;
+    margin: 0 0 10px 0;
+    text-align: left;
+
+}
+
+table{
+margin: 0px 0px 100px 0px;
+padding:6px;
+
+}
+
+table td {
+    color: cecece;
+    padding: 15px 0px 0px 0px;
+}
+
+input[type=text]{
+padding: 5px;
+font-size: 14px;
+font-family: serif;
+background-color: #f3f0e9;
+color: #f3f0e9;
+border: none;
+border-bottom-color:#5b462c ;
+border-bottom-style:solid ;
+border-bottom-width: 1px;
+width: 250px;
+
+}
+input[type=password]{
+    padding: 5px;
+font-size: 14px;
+font-family: serif;
+background-color: #f3f0e9;
+color: #f3f0e9;
+border: none;
+border-bottom-color:#5b462c ;
+border-bottom-style:solid ;
+border-bottom-width: 1px;
+width: 250px;
+}
+input[type=email]{
+    padding: 5px;
+    font-size: 14px;
+    font-family: serif;
+    background-color: #f3f0e9;
+    color: #f3f0e9;
+    border: none;
+    border-bottom-color:#5b462c ;
+    border-bottom-style:solid ;
+    border-bottom-width: 1px;
+    width: 250px;
+}
+::placeholder{
+color: #5b462c;
+opacity: 5;
+}
+.img2{
+  
 }
